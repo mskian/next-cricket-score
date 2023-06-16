@@ -27,7 +27,7 @@ For more check - `/app/live/route.js`
 
 ```sh
 http://localhost:3000/live/
-'''
+```
 
 ## Installation 📦
 
