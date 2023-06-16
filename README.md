@@ -1,4 +1,4 @@
-# The Ashes
+# The Ashes 2023
 
 ![build-test](https://github.com/mskian/next-cricket-score/workflows/build-test/badge.svg)  
 
@@ -25,13 +25,17 @@ API for Get Score data
 
 For more check - `/app/live/route.js`
 
+```sh
+http://localhost:3000/live/
+'''
+
 ## Installation 📦
 
 - Clone this repo or Download
 
 ```sh
 git clone https://github.com/mskian/next-cricket-score
-next-cricket-score
+cd next-cricket-score
 yarn
 ```
 
