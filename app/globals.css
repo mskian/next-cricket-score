@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-size: 16px;
+    height: 100vh;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 600;
+    line-height: 1.618;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
