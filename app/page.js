@@ -32,12 +32,12 @@ export default function Index2() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-indigo-200 dark:bg-current">
+    <div className="min-h-screen bg-current dark:bg-current">
     <div className="container mx-auto px-4">
-      <div className="flex flex-col justify-center items-center">
-        <div className="dark:bg-pink-200 dark:border-pink-200 bg-white rounded-2xl border shadow-xl p-10 max-w-lg mt-6">
+      <div className="flex h-screen flex-col justify-center items-center">
+        <div className="dark:bg-pink-200 dark:border-pink-200 bg-pink-200 rounded-2xl border shadow-xl p-10 max-w-lg mt-6">
           <div className="w-full flex flex-col justify-between dark:bg-gray-800 bg-blue-300 dark:border-gray-700 rounded-lg border border-blue-400 mb-6 py-5 px-4">
-            <p className="text-gray-800 dark:text-gray-100 text-base">
+            <p className="text-gray-800 dark:text-gray-100 text-sm">
               {"🏏 " + title}
               <br />
               <br /> {"📊 " + update}
@@ -54,7 +54,7 @@ export default function Index2() {
           <div className="flex items-center justify-center">
             &nbsp;
             <button
-              className="bg-green-400 text-black font-medium py-2 px-4 rounded-full mt-4"
+              className="bg-green-400 text-black font-medium py-2 px-4 rounded-full mt-4 border shadow-md"
               type="button"
               onClick={() => fetchWord()}
             >

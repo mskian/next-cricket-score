@@ -1,7 +1,7 @@
 import './globals.css'
-import { Ubuntu } from 'next/font/google'
+import { Roboto_Mono } from 'next/font/google'
 
-const ubuntu = Ubuntu({ weight: ['300', '400', '500', '700'], subsets: ['latin'] })
+const RobotoMono = Roboto_Mono({ weight: ['300', '400', '500', '700'], subsets: ['latin'] })
 
 export const metadata = {
   title: 'The Ashes Live Cricket Score',
@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
         <link rel="apple-touch-icon" sizes="192x192" href="/icons/Icon-192.png"></link>
         <link rel="apple-touch-icon" sizes="512x512" href="/icons/Icon-512.png"></link>
         <link rel="canonical" href="/" />
-      <body className={ubuntu.className}>{children}</body>
+      <body className={RobotoMono.className}>{children}</body>
     </html>
   )
 }
