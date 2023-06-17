@@ -29,7 +29,6 @@ export default function RootLayout({ children }) {
         <link rel="apple-touch-icon" sizes="144x144" href="/icons/Icon-144.png"></link>
         <link rel="apple-touch-icon" sizes="192x192" href="/icons/Icon-192.png"></link>
         <link rel="apple-touch-icon" sizes="512x512" href="/icons/Icon-512.png"></link>
-        <link rel="canonical" href="/" />
       <body className={RobotoMono.className}>{children}</body>
     </html>
   )
