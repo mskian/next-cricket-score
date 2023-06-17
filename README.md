@@ -19,6 +19,16 @@ Simple web app to Get Live Ashes Test Cricket Score 2023.
 - Power Packed with React and Next Modules
 - Next JS API Router for fetch score data from cricbuzz
 
+```sh
+
+## Homepage - Get Live Score
+http://localhost:3000
+
+## Get Match Score by ID
+http://localhost:3000/score?id=123456
+
+```
+
 ## API 🍪
 
 - API for Get Live Score data
