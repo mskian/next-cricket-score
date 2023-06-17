@@ -21,12 +21,20 @@ Simple web app to Get Live Ashes Test Cricket Score 2023.
 
 ## API 🍪
 
-API for Get Score data
+- API for Get Live Score data
 
 For more check - `/app/live/route.js`
 
 ```sh
-http://localhost:3000/live/
+http://localhost:3000/live
+```
+
+- Get Live Score data by match id
+
+For More Check - `/app/match/[slug]/route.js`
+
+```sh
+http://localhost:3000/match/53350
 ```
 
 ## Installation 📦
