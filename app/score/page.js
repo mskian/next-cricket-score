@@ -38,7 +38,7 @@ export default function Score() {
       if (response.status == 200) {
          console.log('Data Fetched...');
       } else {
-        push('/404');
+        push(search);
       }
     }
     fetchData();

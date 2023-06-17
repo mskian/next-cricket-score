@@ -1,0 +1,3 @@
+{
+    "rewrites": [{ "source": "/app/(.*)", "destination": "/app/[...not_found]/page.js" }]
+}
