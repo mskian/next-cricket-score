@@ -18,6 +18,7 @@ Simple web app to Get Live Ashes Test Cricket Score 2023.
 - Tailwind CSS
 - Power Packed with React and Next Modules
 - Next JS API Router for fetch score data from cricbuzz
+- PWA Support
 
 ```sh
 
