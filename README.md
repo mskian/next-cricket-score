@@ -4,7 +4,9 @@
 
 Simple web app to Get Live Ashes Test Cricket Score 2023.
 
-> This project for Educational and Learning usage - all data credits goes to cricbuzz.
+![next-cricket-score](https://github.com/mskian/next-cricket-score/assets/10300271/00bb789c-572b-426c-bd77-d91c7a42fbec)  
+
+> This project is for Educational and Learning usage - all data credits go to Cricbuzz.
 
 ⚛ React + Next JS | 🌩 Vercel  
 
